@@ -6,9 +6,6 @@ import {useFilter} from "./helpers.ts";
 import CategorySelect from "./features/TreeForm";
 
 
-
-
-
 const App = () => {
     // парсим данные
     const { getInitialSelections, reorderCategories } = useFilter()
